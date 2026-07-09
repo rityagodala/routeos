@@ -146,12 +146,6 @@ uv run ruff check src/ tests/
 
 PyTorch 2.x · HuggingFace Transformers · vLLM · FastAPI · Redis · Prometheus · Kubernetes · Triton (optional GPU kernels)
 
-## Resume Bullets
-
-- Engineered a token-adaptive inference engine implementing learned MoE routing and KV-cache allocation, reducing LLM inference cost by **~38% while maintaining benchmark accuracy**.
-- Built a distributed FastAPI inference service with GPU workers, Redis caching, and Prometheus monitoring supporting real-time model performance analysis.
-- Optimised transformer execution using PyTorch profiling, improving throughput on Llama-based models through joint attention-expert-cache routing.
-
 ## License
 
 MIT
